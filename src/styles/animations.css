@@ -1,0 +1,12 @@
+/* ── Global Keyframe Animations ── */
+@keyframes twinkle         { 0%,100%{opacity:.2;transform:scale(1)} 50%{opacity:.9;transform:scale(1.5)} }
+@keyframes wave-move       { from{transform:translateX(-4%) scaleY(1)} to{transform:translateX(4%) scaleY(1.12)} }
+@keyframes scan            { from{top:-2px;opacity:.8} to{top:100%;opacity:0} }
+@keyframes pulse-dot       { 0%,100%{opacity:1} 50%{opacity:.3} }
+@keyframes compass-spin    { from{transform:rotate(-18deg)} to{transform:rotate(28deg)} }
+@keyframes logo-wave-scroll{ from{transform:translateX(0)} to{transform:translateX(-50%)} }
+@keyframes anchor-spin     { 0%{transform:rotate(0deg) scale(1)} 40%{transform:rotate(200deg) scale(1.15)} 70%{transform:rotate(340deg) scale(1.05)} 100%{transform:rotate(360deg) scale(1)} }
+@keyframes shake           { 0%,100%{transform:translateX(0)} 20%{transform:translateX(-3px)} 50%{transform:translateX(3px)} 75%{transform:translateX(-2px)} }
+@keyframes typing-bounce   { 0%,60%,100%{transform:translateY(0);opacity:.4} 30%{transform:translateY(-7px);opacity:1} }
+@keyframes spin-icon       { to{transform:rotate(360deg)} }
+.spin { display:inline-block; animation:spin-icon .6s linear infinite; }

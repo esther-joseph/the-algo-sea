@@ -1,0 +1,49 @@
+:root {
+  /* ── Color Palette ── */
+  --navy-deep:  #04091a;
+  --navy:       #080f25;
+  --navy-mid:   #0d1f3c;
+  --teal:       #00c4b8;
+  --teal-dim:   rgba(0,196,184,0.5);
+  --teal-glow:  rgba(0,196,184,0.12);
+  --cyan:       #00e8ff;
+  --amber:      #f4a429;
+  --amber-dim:  rgba(244,164,41,0.5);
+  --gold:       #c8972a;
+  --green:      #39ff7e;
+  --red:        #ff4b6e;
+
+  /* ── Typography ── */
+  --text:       #c8e8f0;
+  --text-dim:   #5a8899;
+
+  /* ── Structure ── */
+  --border:     rgba(0,196,184,0.22);
+  --panel-bg:   rgba(5,12,30,0.82);
+
+  /* ── Maritime Syntax Highlight Colors ── */
+  --ck-kw:   #00d8cc;  /* bioluminescent teal — keywords */
+  --ck-def:  #ff8a7a;  /* coral reef — function definitions */
+  --ck-fn:   #ffa08e;  /* soft coral — function calls */
+  --ck-bi:   #5dd8ff;  /* sea glass — builtins */
+  --ck-str:  #52d9a0;  /* kelp green — strings */
+  --ck-num:  #ffb84d;  /* lighthouse amber — numbers */
+  --ck-cmt:  #3d6878;  /* ocean fog — comments */
+  --ck-op:   #9b8fff;  /* deep purple — operators */
+  --ck-br:   #6a9eb5;  /* pale surf — brackets */
+  --ck-dec:  #ffcf70;  /* golden compass — decorators */
+  --ck-cls:  #ffb36b;  /* sea-star orange — class names */
+}
+
+/* ── Syntax token classes ── */
+.ck-kw  { color: var(--ck-kw);  font-weight: 600; }
+.ck-def { color: var(--ck-def); font-weight: 600; }
+.ck-fn  { color: var(--ck-fn);  }
+.ck-bi  { color: var(--ck-bi);  }
+.ck-str { color: var(--ck-str); }
+.ck-num { color: var(--ck-num); }
+.ck-cmt { color: var(--ck-cmt); font-style: italic; }
+.ck-op  { color: var(--ck-op);  }
+.ck-br  { color: var(--ck-br);  }
+.ck-dec { color: var(--ck-dec); }
+.ck-cls { color: var(--ck-cls); font-weight: 600; }
