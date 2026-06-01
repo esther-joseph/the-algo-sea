@@ -1,4 +1,4 @@
-# ⚓ The Algo Sea
+# The Algo Sea
 
 A maritime-themed mobile AR coding interview prep app. Learn LeetCode patterns through nautical metaphors, a live code editor with AI evaluation, and a chat tutor — Captain Algo.
 
